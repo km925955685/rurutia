@@ -21,7 +21,8 @@ h1 {color: white}
 .c1 {background: #cec8c8;
     border-bottom:white 2px solid;
     display: flex ;
-    flex-flow: nowrap
+    flex-flow: nowrap;
+    width: 8rem;
 }
 
 
@@ -36,9 +37,7 @@ h1 {color: white}
     }
     
 
-.c4 {display: flex ;
-    flex-flow: nowrap row;
-    }
 
+ 
  
 
