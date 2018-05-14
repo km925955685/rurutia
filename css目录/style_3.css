@@ -1,0 +1,44 @@
+.subject {font-weight:bold;
+    font-size:1em}
+
+h1 {color: white}  
+
+#all {display: flex;
+    flex-flow: wrap row
+    }
+
+#a{background:#686868;
+  width:100%;
+}
+#b{display: flex;
+    flex-flow: wrap row}
+
+
+ .c {width:100%;
+        display: flex;
+        flex-flow: nowrap row
+    }
+.c1 {background: #cec8c8;
+    border-bottom:white 2px solid;
+    display: flex ;
+    flex-flow: nowrap
+}
+
+
+    .c2 {border-bottom:#686868 solid;
+     width:100% ;
+     display: flex ;
+     flex-flow: nowrap row}
+.c3 {border-bottom:#686868 solid;
+    width:100% ;
+    display: flex ;
+    flex-flow: nowrap column;
+    }
+    
+
+.c4 {display: flex ;
+    flex-flow: nowrap row;
+    }
+
+ 
+

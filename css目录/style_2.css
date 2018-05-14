@@ -1,0 +1,27 @@
+.subject {font-weight:bold;
+    font-size:1.25em}
+
+h1 {color: white}    
+/*
+#a {background :blue ;
+    width: 10% ;
+    float: left ;
+    height: 1000px;
+   
+    text-align: center 
+}
+
+#b {width: 90%;
+    float: right;
+    height: 100%;
+    overflow: scroll
+    }
+    这是以font+溢出b的方式实现的,但是对分辨率支持不好,在低分辨率下a会一直跑*/
+
+#all {display: flex;
+    flex-flow: nowrap row
+    }
+#a {width: 10%;
+    background:blue;
+    text-align: center;
+}
